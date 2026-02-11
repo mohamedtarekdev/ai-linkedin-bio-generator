@@ -68,10 +68,10 @@ function Textarea(props) {
 
 export default function App() {
   const [form, setForm] = useState({
-    name: "Mohamed",
-    role: "Software Engineer",
-    yearsOfExperience: "2",
-    skills: "Node.js, MySQL, REST APIs",
+    name: "",
+    role: "",
+    yearsOfExperience: "",
+    skills: "",
     tone: "professional",
     target: "headline",
   });
